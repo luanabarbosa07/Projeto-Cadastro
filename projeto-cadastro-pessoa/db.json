@@ -1,0 +1,7 @@
+{ "pessoas" :[
+  {"id":1,"nome":"Luana Barbosa ","email":"lserjeantson0@gmail.com","idade":25,"login":"luana10","senha":"123"},
+  {"id":2,"nome":"Gianlucca Barbosa","email":"rcrowley1@gmail.com","idade":7,"login":"gianlucca10","senha":"123"},
+  {"id":3,"nome":"Giulianna Barbosa","email":"ssecrett2@gmail.com","idade":3,"login":"giulianna10","senha":"123"}
+  
+]
+}
