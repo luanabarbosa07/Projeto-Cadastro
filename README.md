@@ -23,7 +23,39 @@ para usuario fazer interação e uma APIque será responsavel pelas regras de ne
 - Angular 
 
 ## Requisitos
+REQUISITOS
 
+Tabela de banco de dados
+	Usuarios
+o	Id: INTEIRO
+o	Nome: TEXTO
+o	Sobrenome: TEXTO
+o	Email: TEXTO
+o	DataNascimento: DATA
+o	Escolaridade: INTEIRO
+
+Regras de validação
+	O e-mail deve ser validado.
+	A data de nascimento não pode ser maior que hoje.
+	A escolaridade deve permitir apenas os valores (Infantil, Fundamental, Médio e Superior)
+
+Backend
+
+	Criar uma API que permita adicionar, alterar, listar e excluir usuário.
+	Os dados devem ser persistidos e lidos usando ORM Entity Framework com banco de dados SQL Server.
+
+Frontend
+
+	Criar uma aplicação Angular que permita adicionar, alterar, listar e excluir usuários.
+	A arquitetura e layout do frontend fica à escolha, podendo ser uma ou mais telas, disposição de elementos, etc.
+
+O QUE SERÁ AVALIADO
+
+	Funcionamento conforme especificado.
+	Arquitetura e estruturação do Backend e do Frontend.
+	Boas práticas e organização.
+	Nomenclaturas de arquivos, variáveis e métodos.
+	Validação de dados.
 ## Angular
 caso a variável de ambiente não esteja configurada
 
